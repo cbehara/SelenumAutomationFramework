@@ -1,0 +1,17 @@
+11:20:30.714 [main] INFO  com.util.logs.Log - OnStart method Connexo_SmokeTest_Automation_Suite chrome
+11:20:55.287 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-2] INFO  com.util.logs.Log - Executng : AddDevices
+11:20:55.528 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Executng : clickWorkspace
+11:20:55.529 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-2] INFO  com.util.logs.Log - Test case: AddDevices FAILED
+11:20:55.531 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-1] INFO  com.util.logs.Log - Test case: clickWorkspace FAILED
+11:21:07.855 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-4] INFO  com.util.logs.Log - Executng : ApplyDataValidationIssues
+11:21:07.862 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-3] INFO  com.util.logs.Log - Executng : ApplyDataQuality
+11:21:07.863 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-4] INFO  com.util.logs.Log - Test case: ApplyDataValidationIssues FAILED
+11:21:07.864 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-3] INFO  com.util.logs.Log - Test case: ApplyDataQuality FAILED
+11:21:18.297 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-6] INFO  com.util.logs.Log - Executng : ApplyMyopenIssue
+11:21:18.300 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-6] INFO  com.util.logs.Log - Test case: ApplyMyopenIssue FAILED
+11:21:18.443 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-5] INFO  com.util.logs.Log - Executng : ApplyMyWorkGroupIssue
+11:21:18.445 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-5] INFO  com.util.logs.Log - Test case: ApplyMyWorkGroupIssue FAILED
+11:21:28.402 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-8] INFO  com.util.logs.Log - Executng : ChangeTaskperpage
+11:21:28.404 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-8] INFO  com.util.logs.Log - Test case: ChangeTaskperpage FAILED
+11:21:28.548 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-7] INFO  com.util.logs.Log - Executng : ApplyProcesses
+11:21:28.550 [TestNG-test=Connexo_SmokeTest_Automation_Suite chrome-7] INFO  com.util.logs.Log - Test case: ApplyProcesses FAILED

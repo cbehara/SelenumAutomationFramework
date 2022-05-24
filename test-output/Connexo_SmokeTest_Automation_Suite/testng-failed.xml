@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" data-provider-thread-count="2" name="Failed suite [Connexo_SmokeTest_Automation_Suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <listeners>
+    <listener class-name="com.ExtentReportListener.TestListener"/>
+  </listeners>
+  <test thread-count="2" parallel="classes" name="Connexo_SmokeTest_Automation_Suite chrome(failed)" verbose="5">
+    <parameter name="strBrowserName" value="chrome"/>
+    <classes>
+      <class name="com.multisense.testcases.AlarmCreationRulesTest">
+        <methods>
+          <include name="verifyalarmruleremoval"/>
+          <include name="tearDown"/>
+          <include name="addAlarmRule" invocation-numbers="0"/>
+          <include name="verifyalarmrulecreation"/>
+          <include name="verifyalarmruleActivation" invocation-numbers="0"/>
+          <include name="verifyalarmruledeActivation" invocation-numbers="0"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.multisense.testcases.AlarmCreationRulesTest -->
+      <class name="com.Workspace.testcases.FirmwareCampaignTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="editFirmwareCampaign"/>
+          <include name="cancelFirmwareCampaign"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.Workspace.testcases.FirmwareCampaignTest -->
+      <class name="com.ConnexoAdmin.testcases.UploadFileForImportTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyAndSelectImportServices"/>
+          <include name="CreatedUploadfileforImport" invocation-numbers="0"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.ConnexoAdmin.testcases.UploadFileForImportTest -->
+      <class name="com.multisense.testcases.SecurityAccessorsTest">
+        <methods>
+          <include name="editionSecurityAccessors" invocation-numbers="0"/>
+          <include name="removedSecurityAccessors" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="changeingPreviliegesSecurityAccessors" invocation-numbers="0"/>
+          <include name="initialization"/>
+          <include name="CreatedSecurityAccessor" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.multisense.testcases.SecurityAccessorsTest -->
+      <class name="com.ConnexoAdmin.testcases.CertificatesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="RevokeCertificate" invocation-numbers="0"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.ConnexoAdmin.testcases.CertificatesTest -->
+      <class name="com.ConnexoAdmin.testcases.ProcessesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyAndActivateProcess"/>
+          <include name="InstockandSaveProcess"/>
+          <include name="DeactivateProcess"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.ConnexoAdmin.testcases.ProcessesTest -->
+      <class name="com.multisense.testcases.IssueCreationTest">
+        <methods>
+          <include name="editIssueCreation" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="removeIssueCreation" invocation-numbers="0"/>
+          <include name="addCreationrule" invocation-numbers="0"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.multisense.testcases.IssueCreationTest -->
+      <class name="com.multisense.testcases.DataExchangeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="uploadfileforimport" invocation-numbers="0"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.multisense.testcases.DataExchangeTest -->
+      <class name="com.ConnexoAdmin.testcases.CalendarsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Activatecalendar" invocation-numbers="0"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.ConnexoAdmin.testcases.CalendarsTest -->
+      <class name="com.ConnexoAdmin.testcases.ImportServicesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="removedImportServices" invocation-numbers="0"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.ConnexoAdmin.testcases.ImportServicesTest -->
+      <class name="com.DevicesAndSearch.testcases.DeviceLifeCycleManagementAddDeviceTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Sendtimeofusecalender"/>
+          <include name="VerifyValidationConfiguartion"/>
+          <include name="initialization"/>
+          <include name="verifyValidationConfiguartionDeactivatenactive"/>
+        </methods>
+      </class> <!-- com.DevicesAndSearch.testcases.DeviceLifeCycleManagementAddDeviceTest -->
+      <class name="com.Workspace.testcases.DataCollectionIssuesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyAndChangePerPage"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.Workspace.testcases.DataCollectionIssuesTest -->
+      <class name="com.Workspace.testcases.ToUCalendarCampaignsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="EditCampaignworkspace"/>
+          <include name="deviceLinkClick"/>
+          <include name="CreateTouCalenderCampaignworkspace" invocation-numbers="0"/>
+          <include name="CancelCampaignworkspace"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.Workspace.testcases.ToUCalendarCampaignsTest -->
+      <class name="com.ConnexoAdmin.testcases.UserTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="activateuser" invocation-numbers="0"/>
+          <include name="deactivateuser" invocation-numbers="0"/>
+          <include name="initialization"/>
+          <include name="editUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.ConnexoAdmin.testcases.UserTest -->
+      <class name="com.multisense.testcases.EstimateTaskTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickRemovevalidationtask"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.multisense.testcases.EstimateTaskTest -->
+      <class name="com.multisense.testcases.DeviceLifeCycleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickOnAddTransitions" invocation-numbers="0"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.multisense.testcases.DeviceLifeCycleTest -->
+      <class name="com.multisense.testcases.DeviceTypeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addDeviceTypeconfig" invocation-numbers="0"/>
+          <include name="removedevicetype" invocation-numbers="0"/>
+          <include name="addDeviceType" invocation-numbers="0"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.multisense.testcases.DeviceTypeTest -->
+      <class name="com.ConnexoAdmin.testcases.KeypairsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="removeKeypair" invocation-numbers="0"/>
+          <include name="verifyNavigationToKeypairsPage"/>
+          <include name="generateKeypairs" invocation-numbers="0"/>
+          <include name="downloadKeypair" invocation-numbers="0"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.ConnexoAdmin.testcases.KeypairsTest -->
+    </classes>
+  </test> <!-- Connexo_SmokeTest_Automation_Suite chrome(failed) -->
+</suite> <!-- Failed suite [Connexo_SmokeTest_Automation_Suite] -->
